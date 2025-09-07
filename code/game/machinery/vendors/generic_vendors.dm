@@ -415,6 +415,7 @@
 					/obj/item/clothing/under/pants/mustangjeans = 1,
 					/obj/item/clothing/under/pants/camo = 3,
 					/obj/item/clothing/under/pants/blackjeans = 3,
+					/obj/item/clothing/under/pants/shorts/jeanshorts = 3,
 					/obj/item/clothing/under/pants/khaki = 3,
 					/obj/item/clothing/under/pants/white = 3,
 					/obj/item/clothing/under/pants/red = 3,
@@ -506,6 +507,7 @@
 				/obj/item/clothing/under/pants/mustangjeans = 100,
 				/obj/item/clothing/under/pants/camo = 75,
 				/obj/item/clothing/under/pants/blackjeans = 75,
+				/obj/item/clothing/under/pants/shorts/jeanshorts = 75,
 				/obj/item/clothing/under/pants/khaki = 75,
 				/obj/item/clothing/under/pants/white = 75,
 				/obj/item/clothing/under/pants/red = 75,
@@ -1118,7 +1120,7 @@
 	icon_lightmask = "tool"
 	icon_panel = "generic"
 	category = VENDOR_TYPE_SUPPLIES
-	armor = list(melee = 50, bullet = 20, laser = 20, energy = 20, bomb = 0, rad = 0, fire = 100, acid = 70)
+	armor = list(MELEE = 50, BULLET = 20, LASER = 20, ENERGY = 20, BOMB = 0, RAD = 0, FIRE = 100, ACID = 70)
 	resistance_flags = FIRE_PROOF
 	products = list(/obj/item/crowbar = 5,
 					/obj/item/screwdriver = 5,
@@ -1369,6 +1371,7 @@
 	density = FALSE //It is wall-mounted, and thus, not dense. --Superxpdude
 	tiltable = FALSE
 	products = list(/obj/item/stack/medical/bruise_pack = 2,
+					/obj/item/stack/medical/suture/emergency = 2,
 					/obj/item/stack/medical/ointment = 2,
 					/obj/item/reagent_containers/syringe/charcoal = 4,
 					/obj/item/reagent_containers/hypospray/autoinjector/epinephrine = 4,

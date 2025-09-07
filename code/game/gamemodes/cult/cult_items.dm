@@ -562,7 +562,7 @@
 	icon_state = "bloodspear0"
 	force = 17
 	throwforce = 30
-	armour_penetration_percentage = 50
+	armor_penetration_percentage = 50
 	attack_verb = list("attacked", "impaled", "stabbed", "torn", "gored")
 	sharp = TRUE
 	no_spin_thrown = TRUE
@@ -634,7 +634,7 @@
 /datum/action/innate/cult/spear
 	name = "Bloody Bond"
 	desc = "Recall the blood spear to your hand."
-	button_overlay_icon_state = "bloodspear"
+	button_icon_state = "bloodspear"
 	default_button_position = "11:31,4:-2"
 	var/obj/item/cult_spear/spear
 	var/cooldown = 0

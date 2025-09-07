@@ -164,11 +164,8 @@
 
 /datum/action/innate/demon_whisper
 	name = "Demonic Whisper"
-	button_overlay_icon_state = "demon_comms"
-	button_background_icon_state = "bg_demon"
-
-/datum/action/innate/demon_whisper/IsAvailable()
-	return ..()
+	button_icon_state = "demon_comms"
+	background_icon_state = "bg_demon"
 
 /datum/action/innate/demon_whisper/proc/choose_targets(mob/user = usr)//yes i am copying from telepathy..hush...
 	var/list/validtargets = list()

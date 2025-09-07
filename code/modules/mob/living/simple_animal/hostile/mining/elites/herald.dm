@@ -28,7 +28,7 @@
 	health = 1000
 	melee_damage_lower = 20
 	melee_damage_upper = 20
-	armour_penetration_percentage = 50
+	armor_penetration_percentage = 50
 	light_power = 5
 	light_range = 2
 	light_color = "#FF0000"
@@ -74,25 +74,25 @@
 
 /datum/action/innate/elite_attack/herald_trishot
 	name = "Triple Shot"
-	button_overlay_icon_state = "herald_trishot"
+	button_icon_state = "herald_trishot"
 	chosen_message = "<span class='boldwarning'>You are now firing three shots in your chosen direction.</span>"
 	chosen_attack_num = HERALD_TRISHOT
 
 /datum/action/innate/elite_attack/herald_directionalshot
 	name = "Circular Shot"
-	button_overlay_icon_state = "herald_directionalshot"
+	button_icon_state = "herald_directionalshot"
 	chosen_message = "<span class='boldwarning'>You are firing projectiles in all directions.</span>"
 	chosen_attack_num = HERALD_DIRECTIONALSHOT
 
 /datum/action/innate/elite_attack/herald_teleshot
 	name = "Teleport Shot"
-	button_overlay_icon_state = "herald_teleshot"
+	button_icon_state = "herald_teleshot"
 	chosen_message = "<span class='boldwarning'>You will now fire a shot which teleports you where it lands.</span>"
 	chosen_attack_num = HERALD_TELESHOT
 
 /datum/action/innate/elite_attack/herald_mirror
 	name = "Summon Mirror"
-	button_overlay_icon_state = "herald_mirror"
+	button_icon_state = "herald_mirror"
 	chosen_message = "<span class='boldwarning'>You will spawn a mirror which duplicates your attacks.</span>"
 	chosen_attack_num = HERALD_MIRROR
 
@@ -226,7 +226,7 @@
 	name = "death bolt"
 	icon_state = "chronobolt"
 	damage = 15
-	armour_penetration_percentage = 50
+	armor_penetration_percentage = 50
 	speed = 2
 
 /obj/item/projectile/herald/teleshot

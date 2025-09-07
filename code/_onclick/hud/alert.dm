@@ -819,6 +819,11 @@ so as to remain in compliance with the most up-to-date laws."
 	name = "Legcuffed"
 	desc = "You're legcuffed, which slows you down considerably. Click the alert to free yourself."
 
+/atom/movable/screen/alert/restrained/cryocell
+	name = "Cryogenics"
+	desc = "You're inside a freezing cold medical cell. Click the alert to free yourself."
+	icon_state = "asleep"
+
 /atom/movable/screen/alert/restrained/Click()
 	if(!isliving(usr) || !..())
 		return
@@ -857,15 +862,15 @@ so as to remain in compliance with the most up-to-date laws."
 			alert.icon = icon_pref
 		switch(i)
 			if(1)
-				. = ui_alert1
+				. = UI_ALERT1
 			if(2)
-				. = ui_alert2
+				. = UI_ALERT2
 			if(3)
-				. = ui_alert3
+				. = UI_ALERT3
 			if(4)
-				. = ui_alert4
+				. = UI_ALERT4
 			if(5)
-				. = ui_alert5 // Right now there's 5 slots
+				. = UI_ALERT5 // Right now there's 5 slots
 			else
 				. = ""
 		alert.screen_loc = .
