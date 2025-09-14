@@ -272,11 +272,28 @@
 	cold_protection = FALSE
 	heat_protection = FALSE
 
+//ERT Basic
+/obj/item/clothing/head/helmet/ert
+	name = "emergency response team helmet"
+	desc = "A mid-quality combat helmet produced by Citadel Armories. The visor is made of toughened plastic and the radio antenna is entirely decorative."
+	icon = 'icons/obj/clothing/head/helmet.dmi'
+	icon_state = "erthelmet_cmd"
+	worn_icon = 'icons/mob/clothing/head/helmet.dmi'
+	sprite_sheets = list(
+		"Vox" = 'icons/mob/clothing/species/vox/head/helmet.dmi',
+		"Unathi" = 'icons/mob/clothing/species/unathi/head/helmet.dmi',
+		"Tajaran" = 'icons/mob/clothing/species/tajaran/head/helmet.dmi',
+		"Vulpkanin" = 'icons/mob/clothing/species/vulpkanin/head/helmet.dmi',
+		"Grey" = 'icons/mob/clothing/species/grey/head/helmet.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/head/helmet.dmi',
+		"Kidan" = 'icons/mob/clothing/species/kidan/head/helmet.dmi'
+	)
+
 //Commander
 /obj/item/clothing/head/helmet/ert/command
 	name = "emergency response team commander helmet"
 	desc = "A mid-quality combat helmet produced by Citadel Armories. The visor is made of toughened plastic and the radio antenna is entirely decorative. This one has chipped blue Command stripes."
-	icon_state = "erthelmet_cmd"
+
 
 //Security
 /obj/item/clothing/head/helmet/ert/security

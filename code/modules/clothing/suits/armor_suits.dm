@@ -735,8 +735,16 @@
 /obj/item/clothing/suit/armor/vest/ert
 	name = "emergency response team armor"
 	desc = "A mid-quality protective vest produced by Citadel Armories. Additional polymer paneling over the chest and shoulders offers moderately improved energy protection compared to standard kevlar vests."
+	icon = 'icons/obj/clothing/suits/armor.dmi'
 	icon_state = "ertarmor_cmd"
+	worn_icon = 'icons/mob/clothing/suits/armor.dmi'
 	armor = list(MELEE = 20, BULLET = 20, LASER = 20, ENERGY = 20, BOMB = 10, RAD = 0, FIRE = 50, ACID = 50)
+	sprite_sheets = list(
+		"Vox" = 'icons/mob/clothing/species/vox/suits/armor.dmi',
+		"Grey" = 'icons/mob/clothing/species/grey/suits/armor.dmi',
+		"Drask" = 'icons/mob/clothing/species/drask/suits/armor.dmi',
+		"Kidan" = 'icons/mob/clothing/species/kidan/suits/armor.dmi'
+	)
 
 //Commander
 /obj/item/clothing/suit/armor/vest/ert/command
